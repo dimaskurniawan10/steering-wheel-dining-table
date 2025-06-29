@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steering Wheel Dining Table - Meja Mobil Portabel Inovatif</title>
+    <meta name="description" content="Nikmati kenyamanan makan & bekerja di mobil dengan Steering Wheel Dining Table. Praktis, kuat, dan multifungsi. Promo BUY 1 GET 1 FREE hari ini!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #bdc3c7;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #2c3e50;
+            --gradient: linear-gradient(135deg, #bdc3c7 0%, #2c3e50 100%);
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--dark-color);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-color: #f9f9f9;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: var(--gradient);
+            color: white;
+            border-radius: 50px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            box-shadow: var(--shadow);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-primary {
+            background: var(--gradient);
+        }
+
+        .btn-secondary {
+            background: white;
+            color: var(--dark-color);
+            border: 2px solid var(--dark-color);
+        }
+
+        .btn-whatsapp {
+            background: #25D366;
+        }
+
+        .section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            text-align: center;
+            position: relative;
+            color: var(--primary-color);
+        }
+
+        .section-title:after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: var(--gradient);
+            margin: 15px auto;
+            border-radius: 2px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 0;
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            transition: var(--transition);
+        }
+
+        header.scrolled {
+            padding: 15px 0;
+            background: rgba(255, 255, 255, 0.98);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            font-family: 'Playfair Display', serif;
+        }
+
+        .logo span {
+            color: var(--accent-color);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            font-weight: 500;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .nav-links a:after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--gradient);
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover:after {
+            width: 100%;
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            min-height: 700px;
+            background: var(--gradient);
+            color: white;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            padding-top: 80px;
+        }
+
+        .hero:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://cdn.hotishop.com/image/242899397dd50524fd4b3aec47dc67022a715b6c-700.jpeg') center/cover no-repeat;
+            opacity: 0.2;
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 600px;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            line-height: 1.1;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        .hero-btns {
+            display: flex;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .promo-badge {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .countdown {
+            display: flex;
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .countdown-item {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-align: center;
+            backdrop-filter: blur(5px);
+        }
+
+        .countdown-number {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .countdown-text {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            opacity: 0.8;
+        }
+
+        /* Product Showcase */
+        .product-showcase {
+            background-color: white;
+        }
+
+        .product-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .gallery-item {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            position: relative;
+            cursor: pointer;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .main-product-image {
+            grid-column: span 2;
+            grid-row: span 2;
+            height: 620px;
+        }
+
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1001;
+            opacity: 0;
+            pointer-events: none;
+            transition: var(--transition);
+        }
+
+        .modal.active {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .modal-content {
+            max-width: 90%;
+            max-height: 90%;
+            position: relative;
+        }
+
+        .modal-content img {
+            max-height: 80vh;
+            border-radius: 10px;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            color: white;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+        /* Features */
+        .features {
+            background-color: var(--light-color);
+        }
+
+        .features-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            text-align: center;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+
+        .feature-card h3 {
+            margin-bottom: 15px;
+            color: var(--primary-color);
+        }
+
+        /* Testimonials */
+        .testimonials {
+            background: white;
+        }
+
+        .testimonials-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .testimonial-card {
+            background: var(--light-color);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            position: relative;
+        }
+
+        .testimonial-card:before {
+            content: '"';
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 5rem;
+            color: rgba(0, 0, 0, 0.05);
+            font-family: serif;
+            line-height: 1;
+        }
+
+        .testimonial-text {
+            margin-bottom: 20px;
+            font-style: italic;
+            position: relative;
+            z-index: 1;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+        }
+
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 15px;
+        }
+
+        .author-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .author-info h4 {
+            margin-bottom: 5px;
+        }
+
+        .author-info p {
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
+        .rating {
+            color: #FFD700;
+            margin-left: auto;
+        }
+
+        /* FAQ */
+        .faq {
+            background: var(--light-color);
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: white;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .faq-question:hover {
+            background: rgba(0, 0, 0, 0.02);
+        }
+
+        .faq-question i {
+            transition: var(--transition);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            padding: 0 20px;
+        }
+
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 300px;
+            padding: 0 20px 20px;
+        }
+
+        /* CTA Section */
+        .cta {
+            background: var(--gradient);
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://cdn.hotishop.com/image/4c859825a6e248cd7ede5db7abf0e90c5925d699-600.jpeg') center/cover no-repeat;
+            opacity: 0.1;
+            z-index: 1;
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 2;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .cta p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark-color);
+            color: white;
+            padding: 60px 0 20px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-column h3 {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .footer-column h3:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background: var(--gradient);
+        }
+
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links a {
+            opacity: 0.8;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            opacity: 1;
+            padding-left: 5px;
+        }
+
+        .contact-info {
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            transition: var(--transition);
+        }
+
+        .social-links a:hover {
+            background: var(--gradient);
+            transform: translateY(-5px);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
+        /* Floating CTA */
+        .floating-cta {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 999;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .floating-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: var(--transition);
+            cursor: pointer;
+        }
+
+        .floating-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .floating-btn.whatsapp {
+            background: #25D366;
+        }
+
+        .floating-btn.phone {
+            background: var(--gradient);
+        }
+
+        .floating-btn.cart {
+            background: var(--accent-color);
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 992px) {
+            .hero h1 {
+                font-size: 2.8rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .nav-links {
+                position: fixed;
+                top: 80px;
+                left: -100%;
+                width: 100%;
+                height: calc(100vh - 80px);
+                background: white;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 30px;
+                transition: var(--transition);
+                z-index: 999;
+            }
+            
+            .nav-links.active {
+                left: 0;
+            }
+            
+            .hero {
+                text-align: center;
+                padding-top: 100px;
+            }
+            
+            .hero-content {
+                max-width: 100%;
+            }
+            
+            .hero-btns {
+                justify-content: center;
+            }
+            
+            .product-gallery {
+                grid-template-columns: 1fr;
+            }
+            
+            .main-product-image {
+                grid-column: span 1;
+                grid-row: span 1;
+                height: 400px;
+            }
+            
+            .features-container, .testimonials-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .section {
+                padding: 60px 0;
+            }
+            
+            .cta {
+                padding: 80px 0;
+            }
+            
+            .cta h2 {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .hero-btns {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .btn {
+                width: 100%;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+            
+            .countdown {
+                justify-content: center;
+            }
+            
+            .floating-cta {
+                bottom: 20px;
+                right: 20px;
+            }
+            
+            .floating-btn {
+                width: 50px;
+                height: 50px;
+                font-size: 1.2rem;
+            }
+        }
+
+        /* Animation Classes */
+        .fade-in {
+            animation: fadeIn 1s ease forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .delay-1 {
+            animation-delay: 0.2s;
+        }
+
+        .delay-2 {
+            animation-delay: 0.4s;
+        }
+
+        .delay-3 {
+            animation-delay: 0.6s;
+        }
+
+        /* Special Offer Banner */
+        .offer-banner {
+            background: var(--accent-color);
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            font-weight: 600;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .offer-banner p {
+            position: relative;
+            z-index: 1;
+        }
+
+        .offer-banner:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            animation: shine 3s infinite;
+        }
+
+        @keyframes shine {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+
+        /* Trust Badges */
+        .trust-badges {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .badge {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            box-shadow: var(--shadow);
+        }
+
+        .badge i {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+        }
+
+        /* Product Highlights */
+        .highlights {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 30px 0;
+            justify-content: center;
+        }
+
+        .highlight {
+            background: rgba(0, 0, 0, 0.05);
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .highlight i {
+            color: var(--primary-color);
+        }
+
+        /* Price Box */
+        .price-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            margin: 40px auto;
+            max-width: 500px;
+        }
+
+        .original-price {
+            text-decoration: line-through;
+            opacity: 0.7;
+            font-size: 1.2rem;
+        }
+
+        .current-price {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent-color);
+            margin: 10px 0;
+        }
+
+        .discount-badge {
+            background: var(--accent-color);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 50px;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        /* Shipping Info */
+        .shipping-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+
+        .shipping-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            max-width: 250px;
+        }
+
+        .shipping-icon {
+            font-size: 2rem;
+            color: var(--primary-color);
+        }
+
+        /* Payment Methods */
+        .payment-methods {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+
+        .payment-method {
+            width: 60px;
+            height: 40px;
+            object-fit: contain;
+            filter: grayscale(30%);
+            opacity: 0.8;
+            transition: var(--transition);
+        }
+
+        .payment-method:hover {
+            filter: grayscale(0);
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Offer Banner -->
+    <div class="offer-banner">
+        <p>🔥 PROMO SPESIAL: BUY 1 GET 1 FREE - Hanya Hari Ini! 🔥</p>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Steering<span>Table</span></a>
+                <ul class="nav-links">
+                    <li><a href="#features">Fitur</a></li>
+                    <li><a href="#gallery">Galeri</a></li>
+                    <li><a href="#testimonials">Testimoni</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <span class="promo-badge">BUY 1 GET 1 FREE</span>
+                <h1>Ubah Setir Mobil Anda Menjadi Meja Makan & Kerja</h1>
+                <p>Nikmati kenyamanan makan, bekerja, atau bersantai di mobil dengan meja portabel inovatif yang mudah dipasang di steering wheel Anda.</p>
+                
+                <div class="highlights">
+                    <div class="highlight"><i class="fas fa-check-circle"></i> Praktis & Portabel</div>
+                    <div class="highlight"><i class="fas fa-check-circle"></i> Kuat & Stabil</div>
+                    <div class="highlight"><i class="fas fa-check-circle"></i> Multifungsi</div>
+                </div>
+                
+                <div class="countdown">
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="countdown-hours">12</div>
+                        <div class="countdown-text">Jam</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="countdown-minutes">45</div>
+                        <div class="countdown-text">Menit</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="countdown-seconds">30</div>
+                        <div class="countdown-text">Detik</div>
+                    </div>
+                </div>
+                
+                <div class="hero-btns">
+                    <a href="https://elsa.orderonline.id/steering-wheel-dining-table2" class="btn btn-primary">Pesan Sekarang</a>
+                    <a href="#features" class="btn btn-secondary">Pelajari Lebih Lanjut</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Showcase -->
+    <section class="section product-showcase" id="gallery">
+        <div class="container">
+            <h2 class="section-title fade-in">Steering Wheel Dining Table</h2>
+            <p class="text-center fade-in delay-1">Temukan kemudahan dan kenyamanan berkendara dengan meja serbaguna ini</p>
+            
+            <div class="product-gallery fade-in delay-2">
+                <div class="gallery-item main-product-image">
+                    <img src="https://cdn.hotishop.com/image/242899397dd50524fd4b3aec47dc67022a715b6c-700.jpeg" alt="Steering Wheel Dining Table" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://cdn.hotishop.com/image/bbd6058018d93bab2dbff3d1e7cda89ec6b4db88-600.jpeg" alt="Steering Wheel Dining Table Side View" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://cdn.hotishop.com/image/f4e3451d46f818df4abd2017280ece7550c2a4a5-600.jpeg" alt="Steering Wheel Dining Table in Use" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://cdn.hotishop.com/image/4c859825a6e248cd7ede5db7abf0e90c5925d699-600.jpeg" alt="Steering Wheel Dining Table Close Up" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://cdn.hotishop.com/image/bc0f9e1771b42467a0fec0970567ad4a3f95eb90-600.jpeg" alt="Steering Wheel Dining Table Details" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://cdn.hotishop.com/image/a33bea100f282a297c62b89a74dc0ab1984fedda-600.jpeg" alt="Steering Wheel Dining Table Packaging" class="gallery-img">
+                </div>
+            </div>
+            
+            <div class="price-box fade-in delay-3">
+                <div class="discount-badge">DISKON 50%</div>
+                <div class="original-price">Rp 398.000</div>
+                <div class="current-price">Rp 199.000</div>
+                <p>Harga Promo: Beli 1 Gratis 1 (Dapatkan 2 pcs)</p>
+                <a href="https://elsa.orderonline.id/steering-wheel-dining-table2" class="btn btn-primary">Pesan Sekarang</a>
+            </div>
+            
+            <div class="trust-badges fade-in delay-3">
+                <div class="badge">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Garansi 100%</span>
+                </div>
+                <div class="badge">
+                    <i class="fas fa-truck"></i>
+                    <span>Gratis Ongkir</span>
+                </div>
+                <div class="badge">
+                    <i class="fas fa-undo"></i>
+                    <span>14 Hari Pengembalian</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features" id="features">
+        <div class="container">
+            <h2 class="section-title fade-in">Fitur Unggulan</h2>
+            <p class="text-center fade-in delay-1">Mengapa Steering Wheel Dining Table menjadi pilihan terbaik untuk Anda?</p>
+            
+            <div class="features-container fade-in delay-2">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Desain Inovatif</h3>
+                    <p>Dirancang khusus untuk dipasang dengan mudah di setir mobil berbagai jenis, memberikan kenyamanan maksimal saat digunakan.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Multifungsi</h3>
+                    <p>Bisa digunakan sebagai meja makan, meja kerja untuk laptop, atau tempat minuman. Sangat praktis untuk perjalanan jauh.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-weight-hanging"></i>
+                    </div>
+                    <h3>Kuat & Stabil</h3>
+                    <p>Terbuat dari bahan berkualitas tinggi yang mampu menahan beban hingga 5kg tanpa bergoyang atau melengkung.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-compress-arrows-alt"></i>
+                    </div>
+                    <h3>Portabel</h3>
+                    <p>Ringan dan mudah dilipat, bisa disimpan di glove compartment atau bagasi mobil tanpa memakan banyak ruang.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Pemasangan Mudah</h3>
+                    <p>Tidak perlu alat khusus, cukup kaitkan ke setir mobil dan siap digunakan dalam hitungan detik.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tint-slash"></i>
+                    </div>
+                    <h3>Anti Tumpah</h3>
+                    <p>Desain tepi yang sedikit melengkung mencegah minuman atau makanan tumpah saat mobil bergerak.</p>
+                </div>
+            </div>
+            
+            <div class="shipping-info fade-in delay-3">
+                <div class="shipping-item">
+                    <div class="shipping-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <div>
+                        <h4>Pengiriman Cepat</h4>
+                        <p>Pesanan dikirim dalam 1-2 hari kerja</p>
+                    </div>
+                </div>
+                
+                <div class="shipping-item">
+                    <div class="shipping-icon">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <div>
+                        <h4>Gratis Ongkir</h4>
+                        <p>Untuk seluruh wilayah Indonesia</p>
+                    </div>
+                </div>
+                
+                <div class="shipping-item">
+                    <div class="shipping-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <div>
+                        <h4>Pembayaran Aman</h4>
+                        <p>Beragam metode pembayaran tersedia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title fade-in">Apa Kata Pelanggan Kami?</h2>
+            <p class="text-center fade-in delay-1">Ribuan pelanggan telah merasakan manfaat Steering Wheel Dining Table</p>
+            
+            <div class="testimonials-container fade-in delay-2">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "Produk ini sangat membantu saat saya harus makan di mobil karena jadwal yang padat. Kualitasnya bagus dan tidak mudah goyang meski mobil bergerak."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Budi Santoso">
+                        </div>
+                        <div class="author-info">
